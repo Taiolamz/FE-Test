@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { User } from '../types/user';
-import UserDetail from './userDetail';
+import UserDetail from './UserDetail';
+
 
 
 const UserDetails: React.FC = () => {
